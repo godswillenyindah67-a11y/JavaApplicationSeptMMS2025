@@ -1,0 +1,27 @@
+import java.util.scanner;
+
+public class users input {
+	public static void main(String{} agrs) {
+	     scanner input = new scanner(System.in);
+		 
+		 system.out.print("Enter your name:  ");
+		 string name = input.nestLine();
+		 
+		 system.out.print("Enter your gender: ");
+		 string gender = input.next();
+		 
+		 system.out.print("Ennter your age: ");
+		 byte age = input.nnextByte();
+		 
+		 system.out.print("Enter the number of student in your class: ");
+		 short number of student = input.nextShort();
+		 
+		 system.out.printfn("Information about %s%n",name);
+		 system.out.printIn("=====================================================");
+		 
+		 
+		 system.out.printf("Helllo %s, you are welcome to NIIT%n",name):
+		 system.out.printf("you are %s and you are %d years old",gender,age);
+		 system.out.printf("There are %d students in your class%n",numbeOfStudent);
+	}
+}
